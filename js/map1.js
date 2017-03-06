@@ -7,11 +7,7 @@ ymaps.ready(function () {
 	//
     // Укажите здесь, к примеру, координаты вашего офиса.
     var targetCoords = [55.744564, 37.624559],
-	  var myBalloonLayout = ymaps.templateLayoutFactory.createClass(
-                '<h3>$[properties.name]</h3>' +
-                '<p><strong>Адрес:</strong> $[properties.address]</p>' +
-                '<p><strong>Веб-сайт:</strong> <a rel="nofollow" href="http://$[properties.websayt]" target="_blank">перейти</a></p>'
-            )
+
         
   
     
