@@ -25,9 +25,9 @@ ymaps.ready(function () {
 
     // Метка для конечной точки маршрута.
         targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'ближайший мастер',    balloonContentHeader: "Балун метки",
-            balloonContentBody: "Содержимое <em>балуна</em> метки",
+            balloonContentBody: "Содержимое <em><script></script><div></div>балуна</em> метки",
             balloonContentFooter: "Подвал",
-            hintContent: "Хинт метки" },
+            hintContent: "ближайший мастер" },
      //   { preset: 'islands#redStretchyIcon' },
                                           { iconLayout: 'default#image',
           iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
