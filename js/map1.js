@@ -25,7 +25,7 @@ ymaps.ready(function () {
 
     // Метка для конечной точки маршрута.
         targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'БЛИЖАЙШИЙ МАСТЕР',    balloonContentHeader: "Заголовок",
-            balloonContentBody: "Одна Информация<br>Другая Информация",
+            balloonContentBody: "- Одна Информация<br>- Другая Информация",
             balloonContentFooter: "+/-",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР" },
      //   { preset: 'islands#redStretchyIcon' },
