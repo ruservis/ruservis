@@ -170,7 +170,7 @@ ymaps.ready(function () {
         myMap.geoObjects.remove(currentRoute);
         currentRoute = currentRoutingMode = null;
     }
-});
+}),
 
  // Макет кнопки должен отображать поле data.content
         // и изменяться в зависимости от того, нажата кнопка или нет.
