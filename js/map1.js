@@ -25,7 +25,26 @@ ymaps.ready(function () {
 
     // Метка для конечной точки маршрута.
         targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'ближайший мастер',    balloonContentHeader: "Балун метки",
-            balloonContentBody: "Содержимое <em><script></script><div></div>балуна</em> метки",
+            balloonContentBody: "Содержимое <em><script>window.ChatraSetup = {
+    mode: 'frame',
+    injectTo: 'chatra-wrapper' 
+};
+    ChatraID = 'feimekTqYwDJ6bPhx';
+    (function(d, w, c) {
+        var n = d.getElementsByTagName('script')[0],
+            s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
+            + '//call.chatra.io/chatra.js';
+        n.parentNode.insertBefore(s, n);
+    })(document, window, 'Chatra');
+	
+	   Chatra('setColors', {
+    chatBg: 'transparent' // фон
+});</script><div></div>балуна</em> метки",
             balloonContentFooter: "Подвал",
             hintContent: "ближайший мастер" },
      //   { preset: 'islands#redStretchyIcon' },
