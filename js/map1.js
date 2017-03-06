@@ -29,7 +29,7 @@ ymaps.ready(function () {
         targetPoint = new ymaps.Placemark(targetCoords, {iconImageSize: [64, 64], // размер иконки
 	iconImageOffset: [-32, -64], // позиция иконки
 	balloonContentSize: [270, 99], // размер нашего кастомного балуна в пикселях
-   iconImageHref: '//raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: 'БЛИЖАЙШИЙ МАСТЕР',    balloonContentHeader: "ВЫЗОВ/ЗВОНОК",
+   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: 'БЛИЖАЙШИЙ МАСТЕР',    balloonContentHeader: "ВЫЗОВ/ЗВОНОК",
             balloonContentBody: "- Одна Информация<br>- Другая Информация",
             balloonContentFooter: "+/-",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
