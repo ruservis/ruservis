@@ -35,7 +35,8 @@ ymaps.ready(function () {
           iconImageSize: [80, 80],
           
           iconImageOffset: [-20, -47],
-          iconContent: 'ближайший мастер'})  ,
+          iconContent: 'ближайший мастер'}) 
+    setBalloonContent()" <em>балуна</em>"
 
     // Получаем ссылки на нужные элементы управления.
         searchControl = myMap.controls.get('searchControl'),
