@@ -32,10 +32,12 @@ ymaps.ready(function () {
 	iconImageOffset: [-32, -64], // позиция иконки
 	balloonContentSize: [270, 99], // размер нашего кастомного балуна в пикселях
    iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: 'БЛИЖАЙШИЙ МАСТЕР',    balloonContentHeader: "ВЫЗОВ/ЗВОНОК",
-            balloonContentBody: "- Одна Информация<br>- Другая Информация",
+            balloonLayout: "default#imageWithContent",
+	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
+	    balloonContentBody: "- Одна Информация<br>- Другая Информация",
             balloonContentFooter: "+/-",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
-            balloonLayout: "default#imageWithContent"},
+            },
      //   { preset: 'islands#redStretchyIcon' },
                                           { iconLayout: 'default#image',
           iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
