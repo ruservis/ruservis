@@ -179,4 +179,10 @@ ymaps.ready(function () {
         myMap.geoObjects.remove(currentRoute);
         currentRoute = currentRoutingMode = null;
     }
-});
+}),
+
+  var myBalloonLayout = ymaps.templateLayoutFactory.createClass(
+                '<h3>$[properties.name]</h3>' +
+                '<p><strong>Адрес:</strong> $[properties.address]</p>' +
+                '<p><strong>Веб-сайт:</strong> <a rel="nofollow" href="http://$[properties.websayt]" target="_blank">перейти</a></p>'
+            );
