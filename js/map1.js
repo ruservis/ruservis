@@ -1,4 +1,7 @@
 ymaps.ready(function () {
+	
+	
+	var placemark = new YMaps.Placemark(new YMaps.GeoPoint(37.64, 55.76)); setBalloonContent(content); placemark.setBalloonContent("< iframe src =' http: //api.yandex.ru/maps/'>"); map.addOverlay(placemark); 
 
     // Координаты, к которым будем строить маршруты.
     //
