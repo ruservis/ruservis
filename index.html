@@ -18,7 +18,41 @@
     ;
     background: #FFC107!important;
 }
-    </style>
+		
+		.ymaps-2-1-48-i-custom-scroll ::-webkit-scrollbar {
+    width: 0px!important;
+    height: 13px;
+}
+		
+		body::-webkit-scrollbar {
+    width: 1px;
+}
+		     #fr{
+		     width:100%;
+		     }
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+            body, html {
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+            }
+            #map {
+                width: 100%;
+                height: 100%;
+            }
+            .ymaps-2-1-48-searchbox__normal-layout {
+      display: none!important;
+}
+        </style>
 	<script>window.ChatraSetup = {
     mode: 'frame',
     injectTo: 'chatra-wrapper' 
