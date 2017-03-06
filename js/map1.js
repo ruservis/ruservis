@@ -24,12 +24,12 @@ ymaps.ready(function () {
         }),
 
     // Метка для конечной точки маршрута.
-        targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'ближайший мастер' },
+        targetPoint = new ymaps.Placemark(targetCoords, { iconContent: 'ближайший мастер', balloonContent: 'Point desctiption' },
      //   { preset: 'islands#redStretchyIcon' },
                                           { iconLayout: 'default#image',
           iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
           iconImageSize: [80, 80],
-          balloonContent: 'Point desctiption'
+          
           iconImageOffset: [-20, -47],
           iconContent: 'ближайший мастер'})  ,
 
