@@ -35,6 +35,7 @@ ymaps.ready(function () {
             balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
 	    balloonContentBody: "- Одна Информация<br>- Другая Информация",
+	    balloonImageSize: [260, 89],
             balloonContentFooter: "+/-",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
             },
