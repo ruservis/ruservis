@@ -13,7 +13,7 @@ function init () {
 
     $.ajax({
         // В файле data.json заданы геометрия, опции и данные меток .
-        url: "./data.json"
+        url: "//vk-servis.github.io/data.json"
     }).done(function(data) {
         objectManager.add(data);
     });
