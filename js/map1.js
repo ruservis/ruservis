@@ -11,7 +11,7 @@ ymaps.ready(function () {
                 '<h3>$[properties.name]</h3>' +
                 '<p><strong>Адрес:</strong> $[properties.address]</p>' +
                 '<p><strong>Веб-сайт:</strong> <a rel="nofollow" href="http://$[properties.websayt]" target="_blank">перейти</a></p>'
-            ),
+            )
         
   
     
