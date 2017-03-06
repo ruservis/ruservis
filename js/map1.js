@@ -174,30 +174,3 @@ ymaps.ready(function () {
         currentRoute = currentRoutingMode = null;
     }
 }),
-
- 
-    
-    
-    
-    
-    
-    
-    
-      firstButton = new ymaps.control.Button("Кнопка");
-
-    map.controls.add(firstButton, {float: 'right'});
-
-    var secondButton = new ymaps.control.Button({
-        data: {
-            // Зададим текст и иконку для кнопки.
-            content: "Адаптивная кнопка",
-            // Иконка имеет размер 16х16 пикселей.
-            image: 'https://sandbox.api.maps.yandex.net/examples/ru/2.1/button/images/error.png'
-        },
-        options: {
-            // Поскольку кнопка будет менять вид в зависимости от размера карты,
-            // зададим ей три разных значения maxWidth в массиве.
-            maxWidth: [28, 150, 178]
-        }
-    });
-    map.controls.add(secondButton);
