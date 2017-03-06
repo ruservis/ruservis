@@ -179,7 +179,7 @@ ymaps.ready(function () {
         myMap.geoObjects.remove(currentRoute);
         currentRoute = currentRoutingMode = null;
     }
-}),
+});
 
   var myBalloonLayout = ymaps.templateLayoutFactory.createClass(
                 '<h3>$[properties.name]</h3>' +
