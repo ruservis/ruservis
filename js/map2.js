@@ -59,4 +59,4 @@
         }
     );
     map.geoObjects.add(polygonPlacemark);
-});
+}),
