@@ -1,18 +1,11 @@
 ymaps.ready(function () {
-	
-	
-	var placemark = new YMaps.Placemark(new YMaps.GeoPoint(37.64, 55.76)); setBalloonContent(content); placemark.setBalloonContent("< iframe src =' http: //api.yandex.ru/maps/?lang=ru-RU'>"); map.addOverlay(placemark); 
 
     // Координаты, к которым будем строить маршруты.
     //
     //
     //
-	
     // Укажите здесь, к примеру, координаты вашего офиса.
     var targetCoords = [55.744564, 37.624559],
-
-        
-  
     
 
     // Инициализируем карту.
@@ -27,19 +20,20 @@ ymaps.ready(function () {
             searchControlNoCentering: true,
 
             // Разрешаем кнопкам нужную длину.
-            buttonMaxWidth: 150
+            buttonMaxWidth: 250
         }),
 
-    // Метка для конечной точки маршрута.
+      // Метка для конечной точки маршрута.
         targetPoint = new ymaps.Placemark(targetCoords, {iconImageSize: [64, 64], // размер иконки
 	iconImageOffset: [-32, -64], // позиция иконки
-	balloonContentSize: [270, 99], // размер нашего кастомного балуна в пикселях
-   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: 'БЛИЖАЙШИЙ МАСТЕР',    balloonContentHeader: "ВЫЗОВ/ЗВОНОК",
+	balloonContentSize: [270, 270], // размер нашего кастомного балуна в пикселях
+   iconImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png', iconContent: 'БЛИЖАЙШИЙ МАСТЕР',    balloonContentHeader: "<iframe id='fr' src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>",
             balloonLayout: "default#imageWithContent",
 	    balloonImageHref: 'https://raw.githubusercontent.com/domservis/domservis.github.io/master/images/258.png',
-	    balloonContentBody: "- Одна Информация<br>- Другая Информация",
+	//    balloonContentBody: "<!--<iframe src='https://domservis.github.io/b.html'frameborder='0' allowfullscreen></iframe>-->",
+	    balloonId: 'chatra-wrapper',
 	    balloonImageSize: [260, 89],
-            balloonContentFooter: "+/-",
+        //    balloonContentFooter: "",
             hintContent: "БЛИЖАЙШИЙ МАСТЕР",
             },
      //   { preset: 'islands#redStretchyIcon' },
@@ -57,7 +51,7 @@ ymaps.ready(function () {
     // Создаём выпадающий список для выбора типа маршрута.
         routeTypeSelector = new ymaps.control.ListBox({
             data: {
-                content: 'Маршрут до Вас'
+                content: 'Маршрут к Вам'
             },
             items: [
                 new ymaps.control.ListBoxItem('На автомобиле'),
@@ -188,5 +182,4 @@ ymaps.ready(function () {
         currentRoute = currentRoutingMode = null;
     }
 });
-
 
