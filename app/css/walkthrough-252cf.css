@@ -1,0 +1,147 @@
+.version.walkthrough_2 /* version checker */
+{
+	color: #000019;
+	background-color: #AFC5D4;
+}
+
+#muse_css_mq
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	min-height: 313px;
+	background-image: none;
+	border-width: 0px;
+	border-color: #000000;
+	background-color: transparent;
+	padding-top: 17px;
+	padding-bottom: 271px;
+	width: 100%;
+	max-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u9836
+{
+	z-index: 13;
+	height: 219px;
+	background-color: transparent;
+}
+
+#U9844_animation
+{
+	width: 100%;
+	height: 219px;
+	border: none;
+}
+
+.js body
+{
+	visibility: hidden;
+}
+
+.js body.initialized
+{
+	visibility: visible;
+}
+
+#u9836-bw
+{
+	z-index: 13;
+	height: 219px;
+}
+
+#u1374-7
+{
+	z-index: 6;
+	width: 280px;
+	min-height: 94px;
+	background-color: transparent;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: roboto, sans-serif;
+	margin-left: 20px;
+	position: relative;
+}
+
+#u1374-2
+{
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 700;
+}
+
+#u1374-3,#u1374-5
+{
+	font-weight: 400;
+}
+
+#u1371-4
+{
+	min-height: 8px;
+	-pie-box-shadow: none;
+	box-shadow: 0px 0px 8px rgba(255,255,255,0.5),0px 0px 8px rgba(255,255,255,0.5);
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	background-color: transparent;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	left: -50%;
+	margin-left: 98.00000000000001px;
+	width: 100%;
+	max-width: 192px;
+}
+
+#u1371-4:hover
+{
+	-pie-box-shadow: none;
+	box-shadow: 0px 0px 8px rgba(255,255,255,0.5),0px 0px 8px rgba(255,255,255,0.5);
+	background-color: #FCFCFC;
+	background-color: rgba(247,247,247,0.28);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-height: 8px;
+	width: 100%;
+	max-width: 192px;
+	margin: 0px 0px 0px 98px;
+	-pie-background: rgba(247,247,247,0.28);
+}
+
+#u1371-3
+{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#u1371-4-wrapper
+{
+	position: fixed;
+	bottom: 100px;
+	z-index: 2;
+	left: 50%;
+	margin-left: -98px;
+	width: 60%;
+	max-width: 192px;
+}
+
+.html
+{
+	background-color: #868BD0;
+}
+
+body
+{
+	position: relative;
+	min-width: 320px;
+}
+

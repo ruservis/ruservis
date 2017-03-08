@@ -1,0 +1,188 @@
+.version.music /* version checker */
+{
+	color: #00001D;
+	background-color: #C23BDC;
+}
+
+#muse_css_mq
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	min-height: 500px;
+	background-image: none;
+	border-width: 0px;
+	border-color: #000000;
+	background-color: transparent;
+	width: 100%;
+	max-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pu1599
+{
+	padding-bottom: 62px;
+	width: 100%;
+}
+
+#u1599
+{
+	z-index: 28;
+	height: 62px;
+	background-color: #FCEE21;
+	position: fixed;
+	top: 0px;
+}
+
+#u1599-bw
+{
+	z-index: 28;
+}
+
+#u1628
+{
+	z-index: 29;
+	width: 36px;
+	background-color: transparent;
+	position: fixed;
+	top: 15px;
+	left: 20px;
+}
+
+#u1550
+{
+	z-index: 2;
+	min-height: 380px;
+	background-color: transparent;
+}
+
+#u1551
+{
+	z-index: 3;
+	display: block;
+}
+
+.js body
+{
+	visibility: hidden;
+}
+
+.js body.initialized
+{
+	visibility: visible;
+}
+
+#u1550-bw
+{
+	z-index: 2;
+	min-height: 380px;
+}
+
+#u1552-5
+{
+	z-index: 4;
+	min-height: 38px;
+	background-color: #FCEE21;
+	text-align: center;
+}
+
+#u1554
+{
+	z-index: 9;
+	width: 300px;
+	min-height: 35px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u1552-5-bw
+{
+	z-index: 4;
+	min-height: 38px;
+	margin-top: 9px;
+}
+
+#u1555-5
+{
+	z-index: 11;
+	min-height: 39px;
+	background-color: #FCEE21;
+	text-align: center;
+}
+
+#u1557
+{
+	z-index: 16;
+	width: 300px;
+	min-height: 35px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u1555-5-bw
+{
+	z-index: 11;
+	min-height: 39px;
+}
+
+#u1558-5
+{
+	z-index: 18;
+	min-height: 38px;
+	background-color: #FCEE21;
+	text-align: center;
+}
+
+#u1552,#u1555,#u1558
+{
+	font-size: 1px;
+	line-height: 0px;
+}
+
+#u1560
+{
+	z-index: 23;
+	width: 300px;
+	min-height: 35px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u1558-5-bw
+{
+	z-index: 18;
+	min-height: 38px;
+}
+
+#u1561-3
+{
+	z-index: 25;
+	min-height: 38px;
+	background-color: #FCEE21;
+	text-align: center;
+}
+
+#u1561-3-bw
+{
+	z-index: 25;
+	min-height: 38px;
+}
+
+.html
+{
+	background-color: #FCEE21;
+}
+
+body
+{
+	position: relative;
+	min-width: 320px;
+}
+

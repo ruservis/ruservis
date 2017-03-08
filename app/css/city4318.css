@@ -1,0 +1,184 @@
+.version.city /* version checker */
+{
+	color: #000006;
+	background-color: #581EED;
+}
+
+#muse_css_mq
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	min-height: 401.79999999999995px;
+	background-image: none;
+	border-width: 0px;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 149.20000000000005px;
+	width: 100%;
+	max-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u1495
+{
+	z-index: 2;
+	height: 62px;
+	background-color: #FCEE21;
+}
+
+.js body
+{
+	visibility: hidden;
+}
+
+.js body.initialized
+{
+	visibility: visible;
+}
+
+#u1495-bw
+{
+	z-index: 2;
+	height: 62px;
+}
+
+#u1496
+{
+	z-index: 3;
+	width: 35px;
+	background-color: transparent;
+	position: fixed;
+	top: 13px;
+	left: 13px;
+}
+
+#pu5066
+{
+	margin-top: 69px;
+	width: 100%;
+}
+
+#u5066
+{
+	z-index: 5;
+	width: 80px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-left: 50%;
+	left: -136px;
+}
+
+#u5067
+{
+	z-index: 6;
+	display: block;
+}
+
+#u5075
+{
+	z-index: 7;
+	width: 80px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-left: 50%;
+	left: -40px;
+}
+
+#u5076
+{
+	z-index: 8;
+	display: block;
+}
+
+#u5084
+{
+	z-index: 9;
+	width: 80px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-left: 50%;
+	left: 56px;
+}
+
+#u5085
+{
+	z-index: 10;
+	display: block;
+}
+
+#pu5093
+{
+	margin-top: 38px;
+	width: 100%;
+}
+
+#u5093
+{
+	z-index: 11;
+	width: 80px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-left: 50%;
+	left: -136px;
+}
+
+#u5094
+{
+	z-index: 12;
+	display: block;
+}
+
+#u5102
+{
+	z-index: 13;
+	width: 80px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-left: 50%;
+	left: -40px;
+}
+
+#u5103
+{
+	z-index: 14;
+	display: block;
+}
+
+#u5111
+{
+	z-index: 15;
+	width: 80px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-left: 50%;
+	left: 56px;
+}
+
+#u5112
+{
+	z-index: 16;
+	display: block;
+}
+
+.html
+{
+	background-color: #FFFFCF;
+}
+
+body
+{
+	position: relative;
+	min-width: 320px;
+}
+
